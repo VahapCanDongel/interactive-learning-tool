@@ -1,12 +1,12 @@
 import Layout from "@/components/Layout";
 import "@/styles/globals.css";
-import { NextUIProvider } from "@nextui-org/react";
+import { ChakraProvider } from "@chakra-ui/react";
 export default function App({ Component, pageProps }) {
   return (
-    <NextUIProvider>
+    <ChakraProvider>
       <Layout>
         <Component {...pageProps} />
       </Layout>
-    </NextUIProvider>
+    </ChakraProvider>
   );
 }
