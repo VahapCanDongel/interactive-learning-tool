@@ -18,8 +18,16 @@ export default function Navigation() {
                 placeholder="Courses"
                 className="transition-all placeholder:text-white outline-none rounded-md w-[400px] h-[40px] p-2  bg-transparent outline-white outline-[1px] text-white focus:outline-none focus:border-b-[1px] focus:rounded-none"
               />
-              <div className="bg-white text-gray-700 p-2 w-[80px] h-[30px] rounded-md relative right-[100px] flex justify-center items-center">
-                Search
+              <div className=" text-gray-700 p-2  rounded-md relative right-[60px] flex justify-center items-center">
+                <svg
+                  width="30"
+                  height="30"
+                  fill="#ffffff"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M14.25 2.25c-4.134 0-7.5 3.366-7.5 7.5 0 1.796.63 3.442 1.688 4.734L2.46 20.461l1.078 1.078 5.977-5.977a7.442 7.442 0 0 0 4.734 1.688c4.134 0 7.5-3.366 7.5-7.5s-3.366-7.5-7.5-7.5Zm0 1.5c3.322 0 6 2.678 6 6s-2.678 6-6 6-6-2.678-6-6 2.678-6 6-6Z"></path>
+                </svg>
               </div>
             </li>
           </div>

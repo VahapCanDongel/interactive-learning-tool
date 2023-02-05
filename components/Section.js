@@ -7,7 +7,7 @@ export default function Section() {
     <div className="w-[300px] h-screen flex flex-col items-center">
       <SectionBanner />
 
-      <AddSubSectionModal />
+      {/* <AddSubSectionModal /> */}
     </div>
   );
 }
