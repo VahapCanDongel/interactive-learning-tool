@@ -2,7 +2,7 @@ export default function AddSubSectionModal({ setAddSectionBannerVisibility }) {
   return (
     <div className="fixed inset-0 z-50 flex justify-center items-center backdrop-blur-sm">
       <div className="w-[450px] h-[450px] bg-gray-900 rounded-md flex items-center justify-center flex-col gap-8">
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-center gap-2">
           <div className="text-white text-lg">New Section</div>
           <div className="flex text-white text-sm gap-2">
             <div className="bg-pink-500 p-1 rounded-md flex justify-center items-center">
