@@ -10,6 +10,7 @@ module.exports = {
       fontFamily: {
         archivo: ["Archivo", "sans-serif"],
         rubik: ["rubik", "sans-serif"],
+        caveat: ["caveat", "cursive"],
       },
     },
   },

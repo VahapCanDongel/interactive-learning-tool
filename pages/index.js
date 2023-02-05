@@ -10,7 +10,7 @@ export default function Home() {
       </div>
 
       <div className="absolute bottom-0  right-0 m-2 bg-gradient-to-r from-gray-800 to-gray-900 text-white rounded-md p-2">
-        Add Class
+        Add Course
       </div>
     </div>
   );

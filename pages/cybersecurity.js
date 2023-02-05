@@ -7,11 +7,6 @@ export default function cybersecurity() {
       <Section />
       <Section />
       <Section />
-      <Section />
-      <Section />
-      <Section />
-      <Section />
-      <Section />
     </div>
   );
 }

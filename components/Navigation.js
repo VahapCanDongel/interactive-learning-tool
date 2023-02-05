@@ -4,7 +4,7 @@ export default function Navigation() {
   return (
     <div className="w-full h-[80px] bg-gradient-to-r from-gray-700 to-gray-900 flex justify-between items-center p-2 shadow-lg">
       <div className="text-white flex justify-between items-center w-full">
-        <Link href="/" className="text-[30px] font-bold">
+        <Link href="/" className="text-[35px] font-caveat">
           Interactive Learning Tool
         </Link>
 
