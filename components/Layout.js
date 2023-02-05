@@ -2,7 +2,7 @@ import Navigation from "./Navigation";
 
 export default function Layout({ children }) {
   return (
-    <div className="font-archivo">
+    <div className="font-rubik">
       <Navigation />
       <main>{children}</main>
     </div>

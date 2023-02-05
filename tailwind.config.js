@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       fontFamily: {
         archivo: ["Archivo", "sans-serif"],
+        rubik: ["rubik", "sans-serif"],
       },
     },
   },
