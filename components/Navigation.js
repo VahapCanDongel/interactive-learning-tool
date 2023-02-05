@@ -35,7 +35,6 @@ export default function Navigation() {
       </div>
 
       <div className="ml-auto text-white flex justify-center items-center gap-6">
-        <Link href="/classrooms">Classroom's</Link>
         <Link href="/login">Logout</Link>
       </div>
     </div>

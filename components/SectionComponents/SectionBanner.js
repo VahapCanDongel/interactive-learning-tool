@@ -1,14 +1,20 @@
+import { useState } from "react";
 import SubSectionCard from "./SubSectionCard";
+import AddSubSectionModal from "./AddSubSectionModal";
 
 export default function SectionBanner() {
+  const [addSectionBannerVisibility, setAddSectionBannerVisibility] =
+    useState(false);
+
   return (
     <div className="w-[250px] h-[60px] bg-white rounded-lg flex flex-col mt-6 gap-[60px] items-center">
       <div className="text-xl flex justify-center items-center h-full font-bold">
         Section Title
       </div>
-
+      <SubSectionCard />
       <div>
         <svg
+          onClick={() => setAddSectionBannerVisibility(true)}
           width="35"
           height="35"
           fill="#ffffff"
@@ -20,7 +26,11 @@ export default function SectionBanner() {
         </svg>
       </div>
 
-      <SubSectionCard />
+      {addSectionBannerVisibility && (
+        <AddSubSectionModal
+          setAddSectionBannerVisibility={setAddSectionBannerVisibility}
+        />
+      )}
     </div>
   );
 }
