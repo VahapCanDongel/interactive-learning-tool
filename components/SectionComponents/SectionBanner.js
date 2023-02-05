@@ -17,7 +17,7 @@ export default function SectionBanner() {
           onClick={() => setAddSectionBannerVisibility(true)}
           width="35"
           height="35"
-          fill="#ffffff"
+          fill="#808080"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
           className="hover:cursor-pointer"
