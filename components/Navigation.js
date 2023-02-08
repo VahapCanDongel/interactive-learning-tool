@@ -12,7 +12,11 @@ export default function Navigation() {
       <div className="text-white flex justify-between items-center w-full">
         <Link href="/" className="text-[35px] font-caveat flex gap-14">
           Interactive Learning Tool
-          {user && <div>Hi {user.displayName}!</div>}
+          {user && (
+            <div className="text-pink-400 font-shadow">
+              Hi {user.displayName}!
+            </div>
+          )}
         </Link>
 
         <ul className="flex gap-6 justify-center items-center text-white mr-[200px]">

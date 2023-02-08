@@ -11,6 +11,7 @@ module.exports = {
         archivo: ["Archivo", "sans-serif"],
         rubik: ["rubik", "sans-serif"],
         caveat: ["caveat", "cursive"],
+        shadow: ["Shadows Into Light", "cursive"],
       },
     },
   },
